@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import { Button, Center, Container, Flex, Text } from "@chakra-ui/react";
 import { TodosContainer } from "../components/organisms/Todos/TodosContainer";
 import { UserSession } from "./api/auth/[...nextauth]";
-import { NextRequest, NextResponse } from "next/server";
 import { GetServerSideProps } from "next";
 import { TodoCreator } from "../components/molecules/TodoCreator/TodoCreator";
 
