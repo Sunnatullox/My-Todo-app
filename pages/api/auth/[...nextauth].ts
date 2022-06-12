@@ -31,4 +31,5 @@ export default NextAuth({
       return Promise.resolve(session as UserSession);
     },
   },
+  secret: process.env.JWT_SECRET,
 });
