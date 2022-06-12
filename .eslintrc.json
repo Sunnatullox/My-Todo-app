@@ -1,4 +1,7 @@
 {
   "extends": "next/core-web-vitals",
+  "rules": {
+    "react/tsx-no-duplicate-props": [1, { "ignoreCase": false }]
+  }
   
 }
